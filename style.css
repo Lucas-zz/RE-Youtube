@@ -2,30 +2,59 @@ body {
   background: #f9f9f9;
 }
 
+.menu-topo {
+  background-color: red;
+  height: 60px;
+  margin-bottom: 40px;
+}
+
 h1 {
   font-size: 24px;
   font-family: Arial;
+  font-weight: bold;
+  margin-bottom: 6px;
+  margin-left: 15px;
 }
 
 h2 {
   font-size: 18px;
   font-family: Arial;
+  margin-bottom: 18px;
+  margin-left: 15px;
+}
+
+.video {
+  width: 300px;
+  margin-left: 15px;
+
+  background-color: purple;
+}
+
+img {
+  width: 300px;
+  height: 200px;
 }
 
 .info-video {
   font-family: Arial;
+  margin-left: 15px;
 }
 
 .titulo-video {
   font-weight: bold;
   font-size: 15px;
+  margin-bottom: 8px;
 }
 
 .canal-video {
   font-size: 13px;
   color: grey;
 }
-.visualizacao {
+/* .visualizacao {
   font-size: 13px;
   color: grey;
 }
+.data {
+  font-size: 13px;
+  color: grey;
+} */
