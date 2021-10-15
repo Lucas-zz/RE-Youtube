@@ -3,9 +3,28 @@ body {
 }
 
 .menu-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   background-color: red;
   height: 60px;
   margin-bottom: 40px;
+}
+
+.logo {
+  background-color: yellowgreen;
+  height: 30px;
+}
+
+.busca {
+  background-color: rgb(32, 155, 192);
+  height: 30px;
+}
+
+.login {
+  background-color: rgb(146, 41, 179);
+  height: 30px;
 }
 
 h1 {
@@ -20,19 +39,29 @@ h2 {
   font-size: 18px;
   font-family: Arial;
   margin-bottom: 18px;
-  margin-left: 15px;
 }
 
 .video {
   width: 300px;
   margin-left: 15px;
+  margin-bottom: 30px;
 
   background-color: purple;
+}
+
+.videos {
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 img {
   width: 300px;
   height: 200px;
+}
+
+.ml-15 {
+  margin-left: 15px;
 }
 
 .info-video {
